@@ -1,0 +1,782 @@
+[
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Distinguish between renewable and non-renewable resources. [cite: 4]",
+            "Answer": "Renewable resources are those that can be replenished or renewed over time, such as solar energy, wind energy, and forests. Non-renewable resources are those that have a finite stock and cannot be easily replenished once depleted, like coal, petroleum, and natural gas.",
+            "Rubrics": "2 Marks. 1 mark for correctly defining and giving an example of renewable resources. 1 mark for correctly defining and giving an example of non-renewable resources.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student has correctly defined both types of resources and provided a valid example for each, fulfilling all rubric criteria."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Distinguish between renewable and non-renewable resources. [cite: 4]",
+            "Answer": "Renewable resources are things we can use again and again, like the sun. Non-renewable resources run out.",
+            "Rubrics": "2 Marks. 1 mark for correctly defining and giving an example of renewable resources. 1 mark for correctly defining and giving an example of non-renewable resources.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student correctly defined renewable resources with an example but provided an incomplete definition for non-renewable resources and failed to give an example."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Distinguish between renewable and non-renewable resources. [cite: 4]",
+            "Answer": "Renewable resources are natural and non-renewable are man-made.",
+            "Rubrics": "2 Marks. 1 mark for correctly defining and giving an example of renewable resources. 1 mark for correctly defining and giving an example of non-renewable resources.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "0/2",
+            "Explanation": "The student's distinction between natural and man-made is fundamentally incorrect for this classification of resources."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What are the major problems that have developed out of exploiting resources indiscriminately? [cite: 7]",
+            "Answer": "Indiscriminate exploitation of resources has led to several problems: 1. Depletion of resources for satisfying the greed of a few individuals. 2. Accumulation of resources in few hands, which divides society into 'haves' and 'have nots'. 3. It has led to global ecological crises such as global warming and environmental pollution.",
+            "Rubrics": "3 Marks. 1 mark for mentioning depletion of resources. 1 mark for mentioning accumulation in few hands/social strata. 1 mark for mentioning ecological crises.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student successfully identified three distinct and correct problems arising from the indiscriminate use of resources, covering all aspects of the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What are the major problems that have developed out of exploiting resources indiscriminately? [cite: 7]",
+            "Answer": "When we use resources too much, they run out. This also causes problems like global warming and pollution.",
+            "Rubrics": "3 Marks. 1 mark for mentioning depletion of resources. 1 mark for mentioning accumulation in few hands/social strata. 1 mark for mentioning ecological crises.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly identified resource depletion and ecological crises but did not mention the socio-economic problem of resource accumulation in a few hands."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What are the major problems that have developed out of exploiting resources indiscriminately? [cite: 7]",
+            "Answer": "It is bad for the environment and causes pollution.",
+            "Rubrics": "3 Marks. 1 mark for mentioning depletion of resources. 1 mark for mentioning accumulation in few hands/social strata. 1 mark for mentioning ecological crises.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "1/3",
+            "Explanation": "The student only mentioned one problem area (ecological crisis/pollution). The other key problems of depletion and unequal distribution were not addressed."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Differentiate between Bhangar and Khadar. [cite: 19]",
+            "Answer": "Bhangar is the older alluvial soil found away from the rivers; it contains calcareous deposits known as 'kankar' and is less fertile. In contrast, Khadar is the newer, younger alluvium found in the floodplains; it is more fine and fertile because it is renewed almost every year.",
+            "Rubrics": "3 Marks. 1 mark for defining Bhangar (older alluvium). 1 mark for defining Khadar (newer alluvium). 1 mark for a key difference (fertility/location).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student correctly differentiated between both soil types, mentioning their age, fertility, and location as per the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Differentiate between Bhangar and Khadar.",
+            "Answer": "Bhangar is old soil and Khadar is new soil. Khadar is more fertile.",
+            "Rubrics": "3 Marks. 1 mark for defining Bhangar (older alluvium). 1 mark for defining Khadar (newer alluvium). 1 mark for a key difference (fertility/location).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly identified the age and relative fertility but missed other key differentiating points like location (away from/near rivers) or composition (kankar)."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Why do the dams in India come under great scrutiny and opposition? [cite: 62]",
+            "Answer": "Dams face opposition for several reasons. Socially, they displace large numbers of local people. Economically, they are very expensive and don't always benefit locals. Environmentally, they cause deforestation and harm aquatic life.",
+            "Rubrics": "3 Marks. 1 mark for a valid social reason (e.g., displacement). 1 mark for an economic reason (e.g., high cost). 1 mark for an environmental reason (e.g., deforestation).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student clearly outlines three distinct and valid reasons for opposition against dams, covering social, economic, and environmental issues as required."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Why do the dams in India come under great scrutiny and opposition? [cite: 62]",
+            "Answer": "People oppose dams because they have to leave their homes and villages. The dams also harm the fish in the rivers.",
+            "Rubrics": "3 Marks. 1 mark for a valid social reason (e.g., displacement). 1 mark for an economic reason (e.g., high cost). 1 mark for an environmental reason (e.g., deforestation).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly identified a social reason (displacement) and an environmental reason (harm to aquatic life), but did not provide any economic reason for the opposition."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "State the two sets of reasons in favour of power sharing. [cite: 118]",
+            "Answer": "The two sets of reasons for power sharing are: 1. Prudential reasons, which state that power sharing helps to reduce conflict between social groups and ensures political stability. 2. Moral reasons, which state that power sharing is the very spirit of democracy.",
+            "Rubrics": "2 Marks. 1 mark for explaining prudential reasons. 1 mark for explaining moral reasons.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student correctly identified and explained both the prudential and moral reasons for power sharing as required by the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "State the two sets of reasons in favour of power sharing. [cite: 118]",
+            "Answer": "Power sharing is good because it stops fights between different groups in a country. It is important for peace.",
+            "Rubrics": "2 Marks. 1 mark for explaining prudential reasons. 1 mark for explaining moral reasons.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student correctly explained the prudential reason (reducing conflict) for power sharing but failed to mention or explain the moral reason."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Distinguish between federal and unitary governments. [cite: 129]",
+            "Answer": "In a federal government, power is divided between the central authority and constituent units like states. In a unitary government, power is concentrated in the central government, and any sub-units are subordinate to it.",
+            "Rubrics": "3 Marks. 1 mark for defining a federal system (power division). 1 mark for defining a unitary system (centralized power). 1 mark for highlighting the key difference in the power of sub-units.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student has accurately defined both systems of government and clearly highlighted the core difference in the distribution of power."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Distinguish between federal and unitary governments. [cite: 129]",
+            "Answer": "Federal government is what India has. Unitary government is when a king rules.",
+            "Rubrics": "3 Marks. 1 mark for defining a federal system (power division). 1 mark for defining a unitary system (centralized power). 1 mark for highlighting the key difference in the power of sub-units.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "0/3",
+            "Explanation": "The student's answer is incorrect. While the example for federalism is right, the definition for a unitary system is wrong; it is not necessarily a monarchy."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is the rationale for the decentralization of power in India? [cite: 140]",
+            "Answer": "The basic idea behind decentralization is that many local problems are best settled at the local level because people there have direct knowledge of the issues. It also promotes direct participation of people in decision making, strengthening democracy.",
+            "Rubrics": "2 Marks. 1 mark for explaining that local issues are best settled locally. 1 mark for mentioning it promotes direct participation.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student correctly identified the two main rationales for decentralization: effective local problem-solving and the promotion of direct democratic participation."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is the rationale for the decentralization of power in India? [cite: 140]",
+            "Answer": "It is done so that people in villages can solve their own problems.",
+            "Rubrics": "2 Marks. 1 mark for explaining that local issues are best settled locally. 1 mark for mentioning it promotes direct participation.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student correctly identified that decentralization helps in solving local problems but did not mention the second key rationale about enhancing direct democratic participation."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "How did the World Bank classify countries? [cite_start]What criterion did they use and what are its limitations? [cite: 200]",
+            "Answer": "The World Bank uses per capita income to classify countries into rich and low-income. The main limitation is that averages hide disparities; it does not show how income is distributed and ignores other factors like health and education.",
+            "Rubrics": "3 Marks. 1 mark for stating the criterion (per capita income). 1 mark for explaining the classification. 1 mark for stating a key limitation.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The answer is complete and accurate. It correctly identifies the criterion, the classification, and a major limitation as per the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "How did the World Bank classify countries? [cite_start]What criterion did they use and what are its limitations? [cite: 200]",
+            "Answer": "The World Bank uses the average income of people to classify countries as rich or poor.",
+            "Rubrics": "3 Marks. 1 mark for stating the criterion (per capita income). 1 mark for explaining the classification. 1 mark for stating a key limitation.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly identified the criterion and the classification but failed to mention any of the limitations of using only per capita income."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Why is the issue of sustainability important for development? [cite: 211]",
+            "Answer": "Sustainability is important so that development in the present does not compromise the ability of future generations to meet their needs. It means we should use resources wisely without damaging the environment for those who come after us.",
+            "Rubrics": "2 Marks. 1 mark for linking development to the needs of the present. 1 mark for linking it to the needs of future generations.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student provides a clear explanation of sustainability, correctly linking present development with the needs of future generations."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Why is the issue of sustainability important for development? [cite: 211]",
+            "Answer": "It is important because we should not harm the environment when we are developing.",
+            "Rubrics": "2 Marks. 1 mark for linking development to the needs of the present. 1 mark for linking it to the needs of future generations.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student correctly identifies the environmental aspect of sustainability but misses the core idea of not compromising the ability of future generations to meet their needs."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What do you understand by underemployment? [cite_start]Why is it called disguised unemployment? [cite: 234]",
+            "Answer": "Underemployment is when people work less than their potential. It is called disguised unemployment because it seems like everyone is employed, but if you remove some people, production does not fall.",
+            "Rubrics": "3 Marks. 1 mark for defining underemployment. 1 mark for explaining why it's 'disguised'. 1 mark for mentioning the effect on production.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student has provided a comprehensive answer, correctly defining underemployment, explaining why it's 'disguised,' and stating the consequence on production."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What do you understand by underemployment? [cite_start]Why is it called disguised unemployment? [cite: 234]",
+            "Answer": "Underemployment is when people don't have enough work to do. It is disguised because it's not obvious they are unemployed.",
+            "Rubrics": "3 Marks. 1 mark for defining underemployment. 1 mark for explaining why it's 'disguised'. 1 mark for mentioning the effect on production.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly defines underemployment and the 'disguised' aspect. However, they miss the crucial economic point that removing the extra workers does not affect production."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Differentiate between Organized and Unorganized sectors. [cite: 240]",
+            "Answer": "The organized sector has enterprises where employment is regular and workers have job security; they are registered by the government. The unorganized sector has small, scattered units outside government control, with irregular jobs and no benefits like paid leave or job security.",
+            "Rubrics": "3 Marks. 1 mark for explaining the organized sector. 1 mark for explaining the unorganized sector. 1 mark for giving a key difference in benefits/job security.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student correctly describes both sectors and highlights key differences related to government registration, job security, and benefits, fulfilling all rubric criteria."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Differentiate between Organized and Unorganized sectors. [cite: 240]",
+            "Answer": "Organized sector means working in a big company with a fixed salary. Unorganized sector is working in a small shop.",
+            "Rubrics": "3 Marks. 1 mark for explaining the organized sector. 1 mark for explaining the unorganized sector. 1 mark for giving a key difference in benefits/job security.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "1/3",
+            "Explanation": "The student provides examples rather than definitions and fails to mention the key differences regarding government registration, job regularity, or other benefits beyond salary."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is land degradation? [cite_start]Explain any three causes. [cite: 14]",
+            "Answer": "Land degradation is the decline in the productive capacity of land. Three causes are: 1. Deforestation due to mining activities. 2. Overgrazing by livestock. 3. Over-irrigation leading to waterlogging and increased soil salinity.",
+            "Rubrics": "4 Marks. 1 mark for a correct definition. 1 mark for each of the three correctly explained causes.",
+            "Total_Score": 4
+        },
+        "output": {
+            "Score": "4/4",
+            "Explanation": "The student provided a clear definition of land degradation and accurately listed three distinct causes, fulfilling all the requirements of the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is land degradation? [cite_start]Explain any three causes. [cite: 14]",
+            "Answer": "Land degradation is when the land becomes bad. It is caused by cutting trees and too much farming.",
+            "Rubrics": "4 Marks. 1 mark for a correct definition. 1 mark for each of the three correctly explained causes.",
+            "Total_Score": 4
+        },
+        "output": {
+            "Score": "2/4",
+            "Explanation": "The student provided a very basic definition and listed only two causes instead of the three required. The explanations for the causes are also missing."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Describe the horizontal distribution of power. [cite_start]What are its advantages? [cite: 119]",
+            "Answer": "Horizontal distribution of power is when power is shared among different organs of government, such as the legislature, executive, and judiciary. Its advantage is that it creates a system of checks and balances, ensuring that no single organ can exercise unlimited power.",
+            "Rubrics": "3 Marks. 1 mark for explaining horizontal distribution (sharing among organs). 1 mark for naming the organs. 1 mark for explaining the advantage (checks and balances).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student correctly explained the concept, named the relevant organs of government, and accurately described its main advantage."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Describe the horizontal distribution of power. [cite_start]What are its advantages? [cite: 119]",
+            "Answer": "It is when power is shared between the legislature, executive, and judiciary. This is good for the country.",
+            "Rubrics": "3 Marks. 1 mark for explaining horizontal distribution (sharing among organs). 1 mark for naming the organs. 1 mark for explaining the advantage (checks and balances).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly identified the organs involved in horizontal power sharing but did not explain the key advantage of this system, which is 'checks and balances'."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is intensive subsistence farming? [cite_start]Why do farmers follow this type of farming? [cite: 83]",
+            "Answer": "Intensive subsistence farming is practiced in areas of high population pressure on land. It involves high doses of biochemical inputs and irrigation to obtain higher production. Farmers follow this due to the 'right of inheritance' which leads to the division of land over successive generations, making landholdings small and uneconomical.",
+            "Rubrics": "3 Marks. 1 mark for defining the farming type (high inputs on small land). 1 mark for linking it to high population pressure. 1 mark for explaining the reason (right of inheritance/small landholdings).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student provided a complete and accurate answer, defining the farming type and correctly explaining the reasons behind its practice as per the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is intensive subsistence farming? [cite_start]Why do farmers follow this type of farming? [cite: 83]",
+            "Answer": "It is a type of farming where farmers use a lot of fertilizer to grow more crops because they have very small plots of land.",
+            "Rubrics": "3 Marks. 1 mark for defining the farming type (high inputs on small land). 1 mark for linking it to high population pressure. 1 mark for explaining the reason (right of inheritance/small landholdings).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly defined the farming type and mentioned small land plots, but did not explicitly link the practice to 'high population pressure' or the 'right of inheritance' as the root cause."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is sustainable development?",
+            "Answer": "Sustainable economic development means that development should take place without damaging the environment, and at the same time, it should not compromise the needs of future generations.",
+            "Rubrics": "2 Marks. 1 mark for the 'without damaging the environment' aspect. 1 mark for the 'not compromising the needs of future generations' aspect.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student has correctly identified and stated both key components of the definition of sustainable development, fulfilling the rubric completely."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is sustainable development?",
+            "Answer": "Sustainable development is about developing in a way that is good for the environment.",
+            "Rubrics": "2 Marks. 1 mark for the 'without damaging the environment' aspect. 1 mark for the 'not compromising the needs of future generations' aspect.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student correctly mentions the environmental protection aspect but misses the equally important point about meeting the needs of future generations."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is resource planning and why is it essential?",
+            "Answer": "Resource planning is the strategy for judicious use of resources. It is essential in a country like India because while we have rich reserves of some resources, they are unevenly distributed, with some states being deficient in certain vital resources. Planning ensures equitable distribution.",
+            "Rubrics": "3 Marks. 1 mark for defining resource planning. 1 mark for explaining the reason of uneven distribution. 1 mark for mentioning the goal of equity.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student correctly defined resource planning and provided a complete rationale for its necessity, covering both the problem (uneven distribution) and the goal (equity)."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is resource planning and why is it essential?",
+            "Answer": "Resource planning is planning how to use resources. It is needed so we don't waste them.",
+            "Rubrics": "3 Marks. 1 mark for defining resource planning. 1 mark for explaining the reason of uneven distribution. 1 mark for mentioning the goal of equity.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "1/3",
+            "Explanation": "The student provided a very basic definition but did not explain the key reason for planning in a large country, which is the uneven and diverse distribution of resources."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is meant by soil erosion and how is it caused?",
+            "Answer": "Soil erosion is the removal of the top layer of soil. It is caused by natural forces like wind and water, as well as by human activities like deforestation, over-grazing, and faulty farming methods.",
+            "Rubrics": "3 Marks. 1 mark for defining soil erosion. 1 mark for mentioning natural causes. 1 mark for mentioning human-led causes.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student provided a clear definition of soil erosion and correctly identified both natural and a range of human activities as its causes."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is meant by soil erosion and how is it caused?",
+            "Answer": "Soil erosion is when the top soil gets washed away by heavy rain and strong wind.",
+            "Rubrics": "3 Marks. 1 mark for defining soil erosion. 1 mark for mentioning natural causes. 1 mark for mentioning human-led causes.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly defined soil erosion and mentioned natural causes (wind, rain) but failed to mention any of the significant human-led causes like deforestation."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is biodiversity and why is it important for human lives?",
+            "Answer": "Biodiversity is the immense variety of life on Earth, including different plants, animals, and microorganisms. It is vital for human lives as we depend on it for our basic needs like food, water, medicine, and fuel. It also maintains the ecological balance necessary for our survival.",
+            "Rubrics": "2 Marks. 1 mark for a correct definition of biodiversity. 1 mark for explaining its importance to humans.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student correctly defined biodiversity and provided a comprehensive reason for its importance to human beings, covering both direct dependency and ecological balance."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is biodiversity and why is it important for human lives?",
+            "Answer": "Biodiversity is all the different plants and animals in the world.",
+            "Rubrics": "2 Marks. 1 mark for a correct definition of biodiversity. 1 mark for explaining its importance to humans.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student gave a correct, though simple, definition of biodiversity but failed to provide any explanation for why it is important for human lives."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What were the negative factors that caused the depletion of flora and fauna?",
+            "Answer": "Some major negative factors include: large-scale development projects and river valley projects that submerged forests, expansion of agriculture into forest lands, mining activities that cause deforestation, and practices like shifting cultivation (jhumming).",
+            "Rubrics": "3 Marks. 1 mark for each correctly identified and explained factor (up to 3).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student has successfully identified and explained at least three distinct factors that contribute to the depletion of flora and fauna."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What were the negative factors that caused the depletion of flora and fauna?",
+            "Answer": "The main negative factor is cutting down trees to build things.",
+            "Rubrics": "3 Marks. 1 mark for each correctly identified and explained factor (up to 3).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "1/3",
+            "Explanation": "The student mentioned only one general factor (deforestation) and did not elaborate on the specific activities that cause it, nor did they provide the required number of factors."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Why did Jawaharlal Nehru proclaim the dams as the 'temples of modern India'?",
+            "Answer": "He proclaimed dams as the 'temples of modern India' because he saw them as the primary vehicles for national development. He believed they would lead to the development of agriculture and the village economy along with rapid industrialisation and urban growth.",
+            "Rubrics": "2 Marks. 1 mark for linking dams to national development/progress. 1 mark for mentioning specific areas of development (agriculture/industry).",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student correctly identified that dams were seen as a symbol of national progress and mentioned the specific sectors (agriculture and industry) they were expected to develop."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Why did Jawaharlal Nehru proclaim the dams as the 'temples of modern India'?",
+            "Answer": "He called them temples because they were very big and important projects for India.",
+            "Rubrics": "2 Marks. 1 mark for linking dams to national development/progress. 1 mark for mentioning specific areas of development (agriculture/industry).",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student correctly grasped the general idea of dams being important, but did not specify the key areas of development like agriculture or industry that they were meant to boost."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What are the features of plantation agriculture?",
+            "Answer": "Plantation agriculture is a type of commercial farming where a single crop (like tea, coffee, or rubber) is grown on a large area. It uses capital-intensive inputs, and its produce often serves as raw material for industries.",
+            "Rubrics": "3 Marks. 1 mark for mentioning single crop on a large area. 1 mark for mentioning it is capital-intensive/commercial. 1 mark for mentioning its link to industry.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student has correctly identified and stated three key features of plantation agriculture, fulfilling all the requirements of the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What are the features of plantation agriculture?",
+            "Answer": "It is when a single crop like tea is grown on a very large farm to sell and make money.",
+            "Rubrics": "3 Marks. 1 mark for mentioning single crop on a large area. 1 mark for mentioning it is capital-intensive/commercial. 1 mark for mentioning its link to industry.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly identified the 'single crop' and 'commercial' aspects but did not mention the important feature of its output serving as raw material for industries."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Why do the Sri Lankan Tamils feel alienated in their country?",
+            "Answer": "Sri Lankan Tamils feel alienated because the government adopted majoritarian measures establishing Sinhala supremacy. In 1956, an Act made Sinhala the only official language, and the government followed preferential policies favouring Sinhala applicants for university positions and government jobs.",
+            "Rubrics": "3 Marks. 1 mark for mentioning majoritarianism. 1 mark for the language policy example. 1 mark for the preferential jobs/education policy example.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student correctly identified majoritarianism as the root cause and provided two distinct and accurate examples of policies that led to the alienation of Tamils."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Why do the Sri Lankan Tamils feel alienated in their country?",
+            "Answer": "They felt alienated because the government only helped the Sinhala people and made Sinhala the main language.",
+            "Rubrics": "3 Marks. 1 mark for mentioning majoritarianism. 1 mark for the language policy example. 1 mark for the preferential jobs/education policy example.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly identified the language policy as a reason but did not mention the other key example of preferential treatment in jobs and education."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Describe the three-fold distribution of legislative powers in India.",
+            "Answer": "The Constitution provides a three-fold distribution of powers: 1. Union List: For the Union Government, on subjects of national importance like defence and foreign affairs. 2. State List: For State Governments, on subjects like police and agriculture. 3. Concurrent List: For both Union and State governments, on subjects like education and marriage.",
+            "Rubrics": "3 Marks. 1 mark for correctly explaining the Union List. 1 mark for the State List. 1 mark for the Concurrent List.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student has accurately described all three lists and their jurisdictions, fulfilling the rubric completely."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "Describe the three-fold distribution of legislative powers in India.",
+            "Answer": "There is a Union List for the central government and a State List for the state governments to make laws.",
+            "Rubrics": "3 Marks. 1 mark for correctly explaining the Union List. 1 mark for the State List. 1 mark for the Concurrent List.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly explained the Union List and the State List but failed to mention the third list, the Concurrent List, where both can legislate."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is meant by a Coalition Government?",
+            "Answer": "A coalition government is a government formed by two or more political parties coming together, which usually occurs when no single party gets a clear majority in the legislature.",
+            "Rubrics": "2 Marks. 1 mark for explaining it involves two or more parties. 1 mark for explaining the condition of its formation (no single-party majority).",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student provided a complete definition, correctly explaining that it involves multiple parties and the specific condition that it is formed when no single party achieves a majority."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is meant by a Coalition Government?",
+            "Answer": "It is when many parties come together to rule the country.",
+            "Rubrics": "2 Marks. 1 mark for explaining it involves two or more parties. 1 mark for explaining the condition of its formation (no single-party majority).",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student correctly identified that a coalition involves multiple parties but did not mention the crucial pre-condition that it is formed when no single party wins a majority."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is GDP? How are goods and services counted for calculating it?",
+            "Answer": "GDP (Gross Domestic Product) is the total value of all final goods and services produced within a country in a particular year. To calculate it, we only add the value of final goods and services, not intermediate goods, to avoid double counting.",
+            "Rubrics": "3 Marks. 1 mark for a correct definition of GDP. 1 mark for stating that only 'final' goods are counted. 1 mark for explaining this avoids 'double counting'.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student provided a precise definition of GDP and correctly explained the methodology of counting only final goods to avoid the problem of double counting."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is GDP? How are goods and services counted for calculating it?",
+            "Answer": "GDP is the total money a country makes in a year by selling all its goods.",
+            "Rubrics": "3 Marks. 1 mark for a correct definition of GDP. 1 mark for stating that only 'final' goods are counted. 1 mark for explaining this avoids 'double counting'.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "1/3",
+            "Explanation": "The definition is incomplete as it omits 'services' and the crucial word 'final'. The methodology of how goods are counted is also not explained."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What are the development goals of landless rural labourers?",
+            "Answer": "The development goals for a landless rural labourer would include having more days of work and receiving better wages. Socially, they would aspire for quality education for their children and to face no social discrimination.",
+            "Rubrics": "2 Marks. 1 mark for an economic goal (e.g., more work, better wages). 1 mark for a social goal (e.g., education, no discrimination).",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student has correctly identified both an economic aspiration (wages/work) and a social aspiration (education/equality), providing a complete answer."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What are the development goals of landless rural labourers?",
+            "Answer": "Their main goal is to earn more money to support their family.",
+            "Rubrics": "2 Marks. 1 mark for an economic goal (e.g., more work, better wages). 1 mark for a social goal (e.g., education, no discrimination).",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "1/2",
+            "Explanation": "The student correctly identified an economic goal but failed to mention any social development goals like quality education or social equality."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is bamboo drip irrigation and what are two of its features?",
+            "Answer": "Bamboo drip irrigation is a 200-year-old system of tapping stream and spring water by using bamboo pipes. Its features are: 1) About 18-20 litres of water enters the bamboo pipe system and is transported over hundreds of metres. 2) The flow of water is reduced from 20-80 drops per minute at the site of the plant.",
+            "Rubrics": "3 Marks. 1 mark for defining the system. 1 mark for each of the two correctly stated features.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student has correctly defined the irrigation system and provided two distinct and accurate features as required by the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is bamboo drip irrigation and what are two of its features?",
+            "Answer": "It is a way to water plants using bamboo sticks in Meghalaya.",
+            "Rubrics": "3 Marks. 1 mark for defining the system. 1 mark for each of the two correctly stated features.",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "1/3",
+            "Explanation": "The student provides a very basic definition but fails to mention any of the specific features of the system, such as the amount of water transported or the drip rate."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What was the Civil Rights Movement in the USA?",
+            "Answer": "The Civil Rights Movement in the USA (1954-1968) was a set of events and reform movements aimed at abolishing legal racial discrimination against African-Americans. Led by figures like Martin Luther King Jr., it used non-violent methods of civil disobedience to protest against racial segregation.",
+            "Rubrics": "3 Marks. 1 mark for identifying the purpose (abolishing racial discrimination). 1 mark for identifying the targeted group (African-Americans). 1 mark for mentioning the method (non-violent protest/civil disobedience).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "3/3",
+            "Explanation": "The student's answer is comprehensive and accurate, correctly stating the purpose, the group involved, and the methods used during the movement."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What was the Civil Rights Movement in the USA?",
+            "Answer": "It was a movement led by Martin Luther King Jr. to get rights for black people in America.",
+            "Rubrics": "3 Marks. 1 mark for identifying the purpose (abolishing racial discrimination). 1 mark for identifying the targeted group (African-Americans). 1 mark for mentioning the method (non-violent protest/civil disobedience).",
+            "Total_Score": 3
+        },
+        "output": {
+            "Score": "2/3",
+            "Explanation": "The student correctly identified the purpose and the group involved but did not mention the specific method of non-violent civil disobedience that was central to the movement."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is meant by 'coming together' federations?",
+            "Answer": "'Coming together' federations are formed when independent states come together on their own to form a bigger unit. This is done to increase security by pooling sovereignty while retaining identity. Examples include the USA and Australia.",
+            "Rubrics": "2 Marks. 1 mark for explaining the formation process (independent states joining). 1 mark for providing a correct example.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "The student has correctly explained how 'coming together' federations are formed and has provided a valid example, satisfying the rubric."
+        }
+    },
+    {
+        "instruction": "You are an expert answer evaluator. Grade student answers based on the provided grading rubric. Always explain the score briefly.",
+        "input": {
+            "Question": "What is meant by 'coming together' federations?",
+            "Answer": "It is when different states join up to make one country, like the USA.",
+            "Rubrics": "2 Marks. 1 mark for explaining the formation process (independent states joining). 1 mark for providing a correct example.",
+            "Total_Score": 2
+        },
+        "output": {
+            "Score": "2/2",
+            "Explanation": "Although the explanation is simple, it captures the essence of the formation process, and the example provided is correct. The answer meets the minimum criteria for full marks."
+        }
+    }
+] 
