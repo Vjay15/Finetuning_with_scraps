@@ -4,6 +4,8 @@ This repo contains all the python notebooks that were created in order to learn 
 
 This repo explores LoRA fine-tuning using freely available tools and libraries, excluding OpenAI. All notebooks are designed for easy execution in Google Colab(T4 instance), and Python scripts require dependency installation.
 
+The Datasets were synthetically generated using Claude and GPT by feeding them a Science and Social Paper
+
 All of this was done as a part of my internship at Greatify.
 
 The following libraries and frameworks are demonstrated:
@@ -35,3 +37,4 @@ If you guys need any help or you got stuck do reach out to me!
 
 Finally I want to thank my mentor at Greatify [Santhosh](https://github.com/santhosh00023) for mentoring me and my pookie senior [Kashiful Haque](https://github.com/kashifulhaque) for helping me out by guiding me to right sources and also the Google Overlords to have given me access to the T4 GPU in 4 accounts 😉
 
+I will make a blog and explain about the concepts here soon!
